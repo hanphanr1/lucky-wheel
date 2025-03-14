@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Kem",
+    "icon": "icecream",
+    "count": 50
+  },
+  {
+    "name": "Hụt",
+    "icon": "sentiment_dissatisfied"
+  },
+  {
+    "name": "Trà tắc",
+    "icon": "coffee",
+    "count": 30
+  },
+  {
+    "name": "Kem",
+    "icon": "icecream",
+    "count": 50
+  },
+  {
+    "name": "Hụt",
+    "icon": "sentiment_dissatisfied"
+    },
+  {
+    "name": "Trà tắc",
+    "icon": "coffee",
+    "count": 30
+  }
+]
