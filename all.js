@@ -25,12 +25,12 @@
       showPrize: false,
       prize_title: 'Chúc Mừng', 
       probabilityMap: {
-        0: 10,
+        0: 3,
         1: 40, 
-        2: 10,
-        3: 10, 
+        2: 3,
+        3: 3, 
         4: 40, 
-        5: 10 
+        5: 2 
       }
     },
     mounted() {
