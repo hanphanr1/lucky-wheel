@@ -26,10 +26,10 @@
       prize_title: 'Chúc Mừng', 
       probabilityMap: {
         0: 3,
-        1: 40, 
+        1: 50, 
         2: 3,
         3: 3, 
-        4: 40, 
+        4: 50, 
         5: 2 
       }
     },
