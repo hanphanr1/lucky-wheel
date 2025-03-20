@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="./jpg/tptth-icon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Vòng quay không may mắn</title>
+</head>
+
+<body>
+  <div id="app" v-cloak>
+    <div class="wheel-wrapper">
+    <div class="lucky-wheel">
+      <div class="pointer-container">
+        <!-- pointer -->
+        <div class="pointer" ref="pointer" id="pointer" :style="{'transform':rotate_deg,'transition': prize_transition}"
+          @click="rotateHandler(num)">
+        </div>
+      </div>
+      <!-- lucky wheel -->
+      <div :class="containerClass">
+        <div v-for="(item,index) in prizes" :key="item.name" ref="item" :class="itemClass">
+          <div :class="contentClass">
+            <i class="material-icons">
+              {{item.icon}}
+            </i>
+            <span>{{item.name}}
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+      <!-- display results -->
+      <transition name="slide-fade">
+        <div class="prize" v-if="showPrize">
+          <div class="prize-container">
+            <div class="prize-title">{{ prize_title2 }}</div>
+            <div class="prize-title">{{ prize_title }}</br>
+              <span class="prize-item" :class="fontSizeClass">{{prize_name}}</span>
+            </div>
+            <button 
+            class="close-btn" 
+            @click="closeAlert" 
+            v-if="isMobile"
+          >×</button> <!-- Nút đóng -->
+
+          <div class="prize-background">
+            <template v-for="n in 20">
+              <i class="material-icons" :style="{ '--i': n }">
+                {{prize_icon}}
+              </i>
+            </template>
+          </div>
+          </div>
+        </div>
+      </transition>
+    </div>
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.8/vue.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.js'></script>
+  <script src="./all.js"></script>
+</body>
+
+</html>
