@@ -26,12 +26,12 @@
       prize_title: 'Chúc Mừng', 
       isMobile: false,
       probabilityMap: {
-        0: 2,
-        1: 43.5, 
-        2: 3,
-        3: 3, 
-        4: 43.5, 
-        5: 2
+        0: 5,
+        1: 44, 
+        2: 6,
+        3: 4, 
+        4: 42, 
+        5: 5
       }
     },
     mounted() {
