@@ -1,4 +1,4 @@
-**🎰 Lucky Wheel**
+<h1 align = center "> 🎰 Lucky Wheel</h1>
 
 Một ứng dụng vòng quay may mắn hiện đại với khả năng tùy chỉnh tỷ lệ và thiết kế responsive hoàn toàn.
 
