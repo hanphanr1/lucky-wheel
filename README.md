@@ -5,8 +5,11 @@ Một ứng dụng vòng quay may mắn hiện đại với khả năng tùy ch�
 **✨ Tính năng**
 
 🎯 Vòng quay mượt mà: Hiệu ứng quay với animation mượt mà
+
 ⚙️ Tùy chỉnh tỷ lệ: Có thể điều chỉnh xác suất cho từng phần thưởng
+
 📱 Responsive Design: Tương thích hoàn hảo trên mọi thiết bị (desktop, tablet, mobile)
+
 🎨 Giao diện đẹp mắt: Thiết kế hiện đại với màu sắc bắt mắt
 
 **🚀 Demo : Link** : hanphanr1.github.io/lucky-wheel/
