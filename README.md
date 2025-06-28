@@ -12,7 +12,7 @@ Một ứng dụng vòng quay may mắn hiện đại với khả năng tùy ch�
 
 🎨 Giao diện đẹp mắt: Thiết kế hiện đại với màu sắc bắt mắt
 
-**🚀 Demo : Link** : hanphanr1.github.io/lucky-wheel/
+**🚀 Demo : <a href = "hanphanr1.github.io/lucky-wheel/ " >Khám phá tại đây</a>
 
 Live Demo 
 
