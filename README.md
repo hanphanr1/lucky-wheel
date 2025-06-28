@@ -25,13 +25,4 @@ Clone repository
 
 git clone https://github.com/hanphanr1/lucky-wheel.git
 
-**👨‍💻 Tác giả**
-- TPTTH -
-
-**📞 Liên hệ**
-
-Email: tptthcop@gmail.com
-Telegram : @tptthscriptat
-
-
 **⭐ Nếu dự án này hữu ích, hãy cho chúng tôi một star nhé!**
