@@ -15,10 +15,11 @@ Live Demo
 
 ![image](https://github.com/user-attachments/assets/dd654b74-c0b6-4ef4-8cc3-de6400210508)
 
-📋 Yêu cầu hệ thống
 
 **🛠️ Cài đặt**
+
 Clone repository
+
 git clone https://github.com/hanphanr1/lucky-wheel.git
 
 **👨‍💻 Tác giả**
