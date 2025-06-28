@@ -1,5 +1,7 @@
 **🎰 Lucky Wheel**
+
 Một ứng dụng vòng quay may mắn hiện đại với khả năng tùy chỉnh tỷ lệ và thiết kế responsive hoàn toàn.
+
 **✨ Tính năng**
 
 🎯 Vòng quay mượt mà: Hiệu ứng quay với animation mượt mà
@@ -8,7 +10,9 @@ Một ứng dụng vòng quay may mắn hiện đại với khả năng tùy ch�
 🎨 Giao diện đẹp mắt: Thiết kế hiện đại với màu sắc bắt mắt
 
 **🚀 Demo : Link** : hanphanr1.github.io/lucky-wheel/
-Live Demo |
+
+Live Demo 
+
 ![image](https://github.com/user-attachments/assets/dd654b74-c0b6-4ef4-8cc3-de6400210508)
 
 📋 Yêu cầu hệ thống
